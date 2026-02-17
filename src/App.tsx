@@ -1,5 +1,5 @@
 import './App.css'
-import Header from './components/uiComponents/header'
+import Header from './components/coreUi/header'
 
 function App() {
 
