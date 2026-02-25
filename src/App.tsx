@@ -1,14 +1,14 @@
-import './App.css'
-import Header from './components/coreUi/Header'
-import Lists from './components/list/Lists'
+import './App.css';
+import Header from './components/coreUi/Header';
+import ListWrapper from './components/coreUi/ListWrapper';
 
 function App() {
 
   return (
-    <>
+    <div className='container flex flex-col'>
     <Header />
-    <Lists />
-    </>
+    <ListWrapper />
+    </div>
   )
 }
 

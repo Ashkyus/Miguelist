@@ -2,11 +2,14 @@ export interface ListType {
     id: number,
     title: string,
     description: string,
-    items: ListItemType[]
+    listItems: ListItemType[],
+    childLists: ListType[],
+    importance: number,
 }
 
 export interface ListItemType{
     id: number,
     title: string,
-    description: string
+    description: string,
+    importance: number,
 }
