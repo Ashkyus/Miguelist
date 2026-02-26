@@ -1,4 +1,4 @@
-import Lists from "../list/Lists";
+import Lists from "../list/ChildLists";
 
 const ListWrapper = () =>{
     return <div className="w-full h-full bg-white">
