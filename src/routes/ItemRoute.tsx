@@ -1,6 +1,4 @@
-import { useNavigate, useParams } from "react-router-dom";
-import { mockLists } from "../assets/mocks/ListsMock";
-import Card from "../components/ui/Card";
+import { useParams } from "react-router-dom";
 import { findItemById } from "../utils/listHelpers";
 
 type itemParams = {
